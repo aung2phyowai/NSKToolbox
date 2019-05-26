@@ -7,7 +7,7 @@ function [frameShifts,upCross,downCross,T,transitionNotFound]=frameTimeFromDiode
 %
 % Function give back :  frameShifts - times of frame shifts
 %                       upCross - diode upward threshold crossing
-%                       downCross - diode downward threshold crossing
+%                       upCross - diode downward threshold crossing
 %                       T - digital data time stamps
 %                       transitionNotFound - if matching time stamp was not found and original trigger taken instead
 %
